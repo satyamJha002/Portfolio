@@ -1,0 +1,498 @@
+<section class="navbar">
+      <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <div class="container">
+          <a class="navbar-brand" href="#">Brad</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <section class="title">
+      <div class="container">
+        <div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
+          <div class="col-10 col-sm-8 col-lg-5">
+            <img
+              src="image/img.jpg"
+              class="d-block mx-lg-auto img-fluid"
+              alt="Image of profile"
+              loading="lazy"
+              width="200"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h1
+              class="display-3 fw-bold text-body-emphasis lh-1 mb-3 text-light"
+            >
+              Satyam Jha
+            </h1>
+            <p class="lead">
+              Combining Creativity and Code, A Glimpse into my Web Development
+              Journey.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section class="about">
+      <div class="container">
+        <div class="px-4 py-5 my-5 text-center">
+          <h1 class="display-5 fw-bold text-body-emphasis">About Me</h1>
+          <img
+            class="d-block mx-auto mb-4 mt-5"
+            src="image/img.jpg"
+            alt=""
+            width="72"
+            height="57"
+          />
+          <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">
+              Hello there! My name is Satyam Jha. I am a postgraduate student
+              from the 2023 batch, and I completed my graduation in 2021. Ever
+              since I laid my hands on a computer, I developed a deep interest
+              in the world of technology. I am particularly fascinated by the
+              complexities of computer science and the endless possibilities it
+              offers.<br />
+              Every day, I dedicate myself to learning and practicing new
+              concepts to further broaden my knowledge and skills in the field
+              of computer science. With the goal of constantly evolving and
+              moving forward, I'm excited to see where this journey takes me.<br />
+              Thank you for taking the time to read a little bit about me. If
+              you have any questions or would like to connect, feel free to
+              reach out.
+            </p>
+            <!-- <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <button
+                type="button"
+                class="btn btn-primary btn-lg px-4 gap-3"
+                fdprocessedid="cinhs9"
+              >
+                Primary button
+              </button>
+              <button
+                type="button"
+                class="btn btn-outline-secondary btn-lg px-4"
+                fdprocessedid="kka2n"
+              >
+                Secondary
+              </button>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills">
+      <div class="container">
+        <div class="container px-4 py-5" id="icon-grid">
+          <h2 class="pb-5 border-bottom">Skills</h2>
+
+          <div
+            class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-2"
+          >
+            <div class="col d-flex align-items-start">
+              <div>
+                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis mb-3">HTML5</h3>
+                <p class="mt-2">
+                  HTML5 (Hypertext Markup Language 5) is a markup language used
+                  for structuring and presenting content on the World Wide Web.
+                </p>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <div>
+                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">CSS3</h3>
+                <p class="mt-2">
+                  CSS3 stands for Cascading Style Sheet level 3, which is the
+                  advanced version of CSS. It is used for structuring, styling,
+                  and formatting web pages.
+                </p>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <div>
+                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">JavaScript</h3>
+                <p class="mt-2">
+                  JavaScript (JS) is a lightweight interpreted (or just-in-time
+                  compiled) programming language with first-class functions.
+                  While it is most well-known as the scripting language for Web
+                  pages, many non-browser environments also use it, such as
+                  Node.js, Apache CouchDB and Adobe Acrobat.
+                </p>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <div>
+                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Git</h3>
+                <p class="mt-2">
+                  Git is a an open source distributed version control system
+                  that is available for free. The Git source code is hosted on
+                  GitHub, from where it can be downloaded or installed. Users
+                  can also utilize one of the binary installers to deploy Git on
+                  their systems.
+                </p>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <div>
+                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">MongoDB</h3>
+                <p class="mt-2">
+                  MongoDB is a non-relational document database that provides
+                  support for JSON-like storage. The MongoDB database has a
+                  flexible data model that enables you to store unstructured
+                  data, and it provides full indexing support, and replication
+                  with rich and intuitive APIs.
+                </p>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <div>
+                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">React</h3>
+                <p class="mt-2">
+                  React (also known as React.js or ReactJS) is a free and
+                  open-source front-end JavaScript library for building user
+                  interfaces based on components.
+                </p>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <div>
+                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Node</h3>
+                <p class="mt-2">
+                  Node is used extensively for server-side programming, making
+                  it possible for developers to use JavaScript for client-side
+                  and server-side code without needing to learn an additional
+                  language.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects">
+      <div class="container">
+        <div class="container px-4 py-5" id="custom-cards">
+          <h2 class="pb-2 border-bottom">Projects</h2>
+
+          <div
+            class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5"
+          >
+            <div class="col">
+              <div
+                class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                style="
+                  background-image: url('./image/projectsImage/netflix-homepage.png');
+                "
+              >
+                <div
+                  class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+                >
+                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                    Netflix Homepage Clone
+                  </h3>
+                  <ul class="d-flex list-unstyled mt-auto">
+                    <li class="me-auto">
+                      <a
+                        href="https://satyamjha002.github.io/CodeAlpha_Project_NetflixHomepageClone/"
+                      >
+                        <img
+                          src="./image/icons8-github-64.png"
+                          alt="Github icon"
+                          width="32"
+                          height="32"
+                          class="rounded-circle border border-white"
+                        />
+                      </a>
+                    </li>
+                    <li class="d-flex align-items-center me-3">
+                      <svg class="bi me-2" width="1em" height="1em">
+                        <use xlink:href="#geo-fill"></use>
+                      </svg>
+                      <small>Earth</small>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <svg class="bi me-2" width="1em" height="1em">
+                        <use xlink:href="#calendar3"></use>
+                      </svg>
+                      <small>3d</small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div
+                class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                style="
+                  background-image: url('./image/projectsImage/rock-paper-scisor.png');
+                "
+              >
+                <div
+                  class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+                >
+                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                    Rock Paper Scissor Web Application Game.
+                  </h3>
+                  <ul class="d-flex list-unstyled mt-auto">
+                    <li class="me-auto">
+                      <a
+                        href="https://satyamjha002.github.io/Rock-Paper-Scissor-App/"
+                      >
+                        <img
+                          src="./image/icons8-github-64.png"
+                          alt="Github icon"
+                          width="32"
+                          height="32"
+                          class="rounded-circle border border-white"
+                        />
+                      </a>
+                    </li>
+                    <li class="d-flex align-items-center me-3">
+                      <svg class="bi me-2" width="1em" height="1em">
+                        <use xlink:href="#geo-fill"></use>
+                      </svg>
+                      <small>Earth</small>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <svg class="bi me-2" width="1em" height="1em">
+                        <use xlink:href="#calendar3"></use>
+                      </svg>
+                      <small>4d</small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div
+                class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                style="
+                  background-image: url('./image/projectsImage/tribute-page.png');
+                "
+              >
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                    Tribute Page
+                  </h3>
+                  <ul class="d-flex list-unstyled mt-auto">
+                    <li class="me-auto">
+                      <a href="https://satyamjha002.github.io/Tribute-Page/">
+                        <img
+                          src="./image/icons8-github-64.png"
+                          alt="Github icon"
+                          width="32"
+                          height="32"
+                          class="rounded-circle border border-white"
+                        />
+                      </a>
+                    </li>
+                    <li class="d-flex align-items-center me-3">
+                      <svg class="bi me-2" width="1em" height="1em">
+                        <use xlink:href="#geo-fill"></use>
+                      </svg>
+                      <small>Earth</small>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <svg class="bi me-2" width="1em" height="1em">
+                        <use xlink:href="#calendar3"></use>
+                      </svg>
+                      <small>5d</small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="container">
+        <div class="px-4 py-5 my-5 text-center">
+          <h2 class="display-5 fw-bold text-body-emphasis">Contact Me</h2>
+          <br />
+        </div>
+
+        <div class="row align-items-stretch no-gutters contact-wrap">
+          <div class="col-md-8">
+            <div class="form h-100">
+              <h3>Send us a message</h3>
+              <form
+                class="mb-5"
+                method="post"
+                id="contactForm"
+                name="contactForm"
+              >
+                <div class="row">
+                  <div class="col-md-6 form-group mb-5">
+                    <label for="" class="col-form-label">Name *</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="name"
+                      id="name"
+                      placeholder="Your name"
+                    />
+                  </div>
+                  <div class="col-md-6 form-group mb-5">
+                    <label for="" class="col-form-label">Email *</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      placeholder="Your email"
+                    />
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-6 form-group mb-5">
+                    <label for="" class="col-form-label">Phone</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="phone"
+                      id="phone"
+                      placeholder="Phone #"
+                    />
+                  </div>
+                  <div class="col-md-6 form-group mb-5">
+                    <label for="" class="col-form-label">Company</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="company"
+                      id="company"
+                      placeholder="Company  name"
+                    />
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-12 form-group mb-5">
+                    <label for="message" class="col-form-label"
+                      >Message *</label
+                    >
+                    <textarea
+                      class="form-control"
+                      name="message"
+                      id="message"
+                      cols="30"
+                      rows="4"
+                      placeholder="Write your message"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 form-group">
+                    <input
+                      type="submit"
+                      value="Send Message"
+                      class="btn btn-primary rounded-0 py-2 px-4"
+                    />
+                    <span class="submitting"></span>
+                  </div>
+                </div>
+              </form>
+
+              <div id="form-message-warning mt-4"></div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="contact-info h-100">
+              <h3 class="m-5">Contact Information</h3>
+              <p class="m-5">
+                If you want to contact me and I have mention all the details in
+                the below section. If you want to message me also through with
+                email.
+              </p>
+              <ul class="list-unstyled m-5">
+                <li class="d-flex">
+                  <span class="wrap-icon icon-room mr-3"></span>
+                  <span class="text">Kanpur, Uttar Pradesh 208017</span>
+                </li>
+                <li class="d-flex">
+                  <span class="wrap-icon icon-phone mr-3"></span>
+                  <span class="text">+91 (8433) 70381</span>
+                </li>
+                <li class="d-flex">
+                  <span class="wrap-icon icon-envelope mr-3"></span>
+                  <span class="text">satyam073000@gmail.com</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item">
+              <a href="#section_1" class="nav-link px-2 text-body-secondary"
+                >Info</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#section_2" class="nav-link px-2 text-body-secondary"
+                >Skills</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#section_3" class="nav-link px-2 text-body-secondary"
+                >Project</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#section_4" class="nav-link px-2 text-body-secondary"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#section_5"
+                class="nav-link px-2 text-body-secondary click-scroll active"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+          <p class="text-center text-body-secondary">© 2023 Satyam Jha</p>
+        </footer>
+      </div>
+    </section>
+
+    data-bs-theme="dark"

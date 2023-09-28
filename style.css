@@ -1,0 +1,32 @@
+.background {
+  background: rgb(174, 203, 238);
+  background: radial-gradient(
+    circle,
+    rgba(174, 203, 238, 1) 0%,
+    rgba(175, 148, 233, 1) 100%
+  );
+}
+
+#navbar {
+  background: #f6f6f6;
+}
+
+.background-skills {
+  background: #7f7fd5;
+  background: radial-gradient(circle, #86a8e7 0%, #91eae4 100%);
+}
+
+.background-contact {
+  background: #0f0c29;
+  background: radial-gradient(circle, #302b63 0%, #24243e 100%);
+}
+
+ul {
+  list-style: none;
+}
+
+@media (min-width: 820px) and (max-width: 912px) {
+  .btn-group {
+    display: block;
+  }
+}
