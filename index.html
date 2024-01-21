@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<!-- Coding by CodingNepal || www.codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Responsive Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <!-- Header Start -->
+      <header>
+        <nav class="nav container">
+          <h2 class="nav_logo">Portfolio</h2>
+
+          <ul class="menu_items">
+            <img src="images/times.svg" alt="timesicon" id="menu_toggle" />
+            <li><a href="#home" class="nav_link">Home</a></li>
+            <li><a href="#about" class="nav_link">About</a></li>
+            <li><a href="#project" class="nav_link">Project</a></li>
+            <li><a href="#contact" class="nav_link">Contact</a></li>
+          </ul>
+          <img src="images/bars.svg" alt="timesicon" id="menu_toggle" />
+        </nav>
+      </header>
+      <!-- Header End -->
+
+      <!-- Hero Start -->
+      <section id="home" class="hero">
+        <div class="row container">
+          <div class="column">
+            <h2>Satyam Jha <br />Full Stack Developer</h2>
+            <p>
+              I am a Full Stack Developer with a passion for building scalable
+              web applications and engaging user experiences. With expertise in
+              both front-end and back-end technologies, I craft seamless
+              solutions that encompass the entire software development cycle,
+              from concept to deployment. My goal is to bridge the gap between
+              user needs and technical execution for truly impactful digital
+              products.
+            </p>
+            <div class="buttons">
+              <a
+                href="https://www.linkedin.com/in/satyam-jha-9b97a6228?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B25PeUnrJQninJ6muyOEZww%3D%3D"
+                ><button class="btn">Read More</button></a
+              >
+              <a href="#contact"><button class="btn">Contact Us</button></a>
+            </div>
+          </div>
+          <div class="column">
+            <img src="images/hero.png" alt="heroImg" class="hero_img" />
+          </div>
+        </div>
+      </section>
+      <!-- Hero End-->
+
+      <!-- About Start -->
+      <section id="about" class="about">
+        <div class="row container">
+          <div class="column">
+            <img src="images/about.jpg" alt="aboutImg" class="about_img" />
+          </div>
+          <div class="column">
+            <h2>About Me</h2>
+            <p>
+              I'm a seasoned Full Stack Developer with a deep interest in the
+              latest technology trends and a strong background in full-cycle
+              product development. I thrive in collaborative environments, where
+              my communication skills and leadership abilities shine. Outside of
+              work, I'm passionate about open-source projects and continuously
+              learning new programming languages and tools.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- About End -->
+
+      <!-- Project Start -->
+      <section id="project" class="project">
+        <div class="container">
+          <h2 class="project-title">Projects</h2>
+          <div class="project-grid">
+            <!-- Project Item Start -->
+            <div class="project-item">
+              <a href="https://github.com/satyamJha002/BankStatement">
+                <img src="images/bank.png" alt="Project 1" class="project-img"
+              /></a>
+            </div>
+            <!-- Project Item End -->
+            <!-- More project items here -->
+            <div class="project-item">
+              <a href="https://github.com/satyamJha002/Dashboard">
+                <img
+                  src="images/dashboard.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </a>
+            </div>
+            <!-- Project Item End -->
+            <!-- More project items here -->
+            <div class="project-item">
+              <a href="https://github.com/satyamJha002/Dice-game">
+                <img
+                  src="images/diceGame.png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </a>
+            </div>
+            <!-- Project Item End -->
+            <!-- More project items here -->
+            <div class="project-item">
+              <a href="https://github.com/satyamJha002/Google-Home-Page">
+                <img
+                  src="images/googlePage.png"
+                  alt="Project 4"
+                  class="project-img"
+                />
+              </a>
+            </div>
+            <!-- Project Item End -->
+            <!-- More project items here -->
+            <div class="project-item">
+              <a
+                href="https://github.com/satyamJha002/Html_Css_JavaScript_Projects/tree/master/Password%20Generator"
+              >
+                <img
+                  src="images/password generator.png"
+                  alt="Project 5"
+                  class="project-img"
+                />
+              </a>
+            </div>
+            <!-- Project Item End -->
+            <!-- More project items here -->
+            <div class="project-item">
+              <a href="https://github.com/satyamJha002/Simon-Game">
+                <img
+                  src="images/simonGame.png"
+                  alt="Project 7"
+                  class="project-img"
+              /></a>
+            </div>
+            <!-- Project Item End -->
+          </div>
+        </div>
+      </section>
+      <!-- Project End -->
+      <!-- Contact Start -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <h2 class="contact-title">Contact Me</h2>
+          <p>
+            If you have any project in mind or just want to say hi, feel free to
+            contact me!
+          </p>
+          <form class="contact-form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+          <h1 class="or">OR <br />Contact Through</h1>
+          <div class="social-icons">
+            <a href="https://github.com/satyamJha002"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/satyam-jha-02/"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+      <!-- Contact End -->
+      <!-- Footer Start -->
+      <footer>
+        <p>&copy; 2023 Satyam Jha. All rights reserved.</p>
+      </footer>
+      <!-- Footer End -->
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
