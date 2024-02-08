@@ -1,5 +1,6 @@
 /* Import Google font - Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +9,10 @@
 }
 main {
   background: #6610f2;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 .container {
   max-width: 1300px;
@@ -171,10 +176,15 @@ a:hover {
 }
 
 /* Projects */
+
 .project {
-  padding: 60px;
+  padding: 50px 70px;
   min-height: 100vh;
   width: 100%;
+  background-image: radial-gradient(
+    circle 897px at 9% 80.3%,
+    rgba(55, 60, 245, 1) 0%
+  );
   background: url(images/bg-dot.png), url(images/bg-dot.png),
     url(images/bg-round.png), url(images/bg-tree.png);
   background-position: 10px 10px, bottom 215px right 10px, left 55% top -1%,
@@ -192,55 +202,33 @@ a:hover {
 .project-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-  margin-top: 50px;
+  grid-gap: 20px;
+  justify-items: center;
 }
 
 .project-item {
-  position: relative;
-  overflow: hidden;
-  cursor: pointer;
-  border-radius: 10px;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
-}
-
-.project-img {
   width: 100%;
   height: 100%;
-  display: block;
-  border-radius: 10px;
+  background-color: #fff;
+  border-radius: 5px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
-  border: 10px solid #fff;
-  position: relative;
-  transition: all 0.5s ease;
-}
-
-.project-info {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   padding: 20px;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.5);
-  opacity: 0;
-  transition: all 0.5s ease;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-.project-info h3 {
-  font-size: 24px;
-  margin-bottom: 16px;
+.project-item img {
+  height: auto;
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
 }
-
-.project-info h3 p {
-  font-size: 18px;
-  margin-bottom: 16px;
-}
-
 /* Contact */
 
 .contact {
@@ -393,7 +381,21 @@ footer {
   }
 
   /* Responsive for project */
+  .project {
+    padding: 20px;
+  }
+
   .project-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
+  .project-item {
+    margin: 0 auto;
+    max-width: 500px;
+  }
+  /* .project-grid {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 20px;
@@ -412,7 +414,7 @@ footer {
   .project-img {
     width: 100%;
     height: auto;
-  }
+  } */
   .hero_img {
     width: 50%;
     display: block;
@@ -488,11 +490,22 @@ footer {
     padding: 10px 16px;
   }
 
+  .contact {
+    padding: 20px;
+  }
+
+  .project {
+    padding: 20px;
+  }
+
   .project-grid {
-    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
   }
 
   .project-item {
-    max-width: 100%;
+    margin: 0 auto;
+    max-width: 500px;
   }
 }
