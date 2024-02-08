@@ -155,11 +155,11 @@ a:hover {
 }
 
 .about .column img {
-  max-width: 100%;
   height: auto;
+  max-width: 100%;
   border-radius: 5px;
-  margin: 20px 50px;
-  padding: 20px 0;
+  margin-bottom: 20px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 .about h2 {
