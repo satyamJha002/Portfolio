@@ -1,2 +1,2 @@
 # Portfolio
-[Satyam Jha](https://satyamjhaportfolio.netlify.app/)
+[Satyam Jha](https://satyam-jha-9abc0a.netlify.app/)
