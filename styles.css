@@ -41,7 +41,7 @@ header {
   list-style: none;
   gap: 20px;
 }
-a {
+.nav_link {
   color: #fff;
   text-decoration: none;
   font-size: 18px;
@@ -50,8 +50,8 @@ a {
   border-radius: 3px;
 }
 
-a.active,
-a:hover {
+.nav_link.active,
+.nav_link:hover {
   background: #7071e8;
   transition: 0.4s;
   padding: 12px;
@@ -176,7 +176,6 @@ a:hover {
 }
 
 /* Projects */
-
 .project {
   padding: 50px 70px;
   min-height: 100vh;
@@ -199,6 +198,110 @@ a:hover {
   color: #fff;
 }
 
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+  width: 100%;
+  height: 300px;
+  gap: 50px;
+  perspective: 800px;
+  margin-top: 40px;
+}
+
+.project-container:hover > .card {
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 1500ms;
+}
+
+.front1,
+.front2,
+.front3,
+.front4,
+.front5,
+.front6,
+.back {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.front1 {
+  background-image: url(images/bank.png);
+  background-size: cover;
+  background-position: center;
+}
+.front2 {
+  background-image: url(images/FoodyZone.png);
+  background-size: cover;
+  background-position: center;
+}
+.front3 {
+  background-image: url(images/DicePage2.png);
+  background-size: cover;
+  background-position: center;
+}
+.front4 {
+  background-image: url(images/password-generator.png);
+  background-size: cover;
+  background-position: center;
+}
+.front5 {
+  background-image: url(images/dashboard.png);
+  background-size: cover;
+  background-position: center;
+}
+.front6 {
+  background-image: url(images/contact-us.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.back {
+  background-color: #3a3a3a;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.back .demo-project {
+  text-decoration: none;
+  color: #fff;
+}
+
+.back .demo-project:hover {
+  color: #40a2e3;
+}
+
+.back .project-code {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.back .project-code:hover {
+  background-color: #fff;
+  color: #40a2e3;
+}
+/* 
 .project-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -253,7 +356,7 @@ a:hover {
   border-radius: 5px;
   color: #333;
   border: 1px solid #333;
-}
+} */
 /* Contact */
 
 .contact {
@@ -303,11 +406,20 @@ a:hover {
 
 .fab {
   font-size: 24px;
+  color: #fff;
+}
+
+.fab:hover {
+  color: #40a2e3;
 }
 
 .fa-solid {
   font-size: 25px;
   color: #fff;
+}
+
+.fa-solid:hover {
+  color: #40a2e3;
 }
 /* Footer */
 footer {
@@ -345,7 +457,7 @@ footer {
   .showMenu .menu_items {
     left: 0;
   }
-  a {
+  .nav_link {
     color: #333;
   }
   #menu_toggle {
@@ -383,40 +495,32 @@ footer {
   }
 
   /* Responsive for project */
+
   .project {
     padding: 20px;
   }
 
-  .project-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
-  }
-
-  .project-item {
-    margin: 0 auto;
-    max-width: 500px;
-  }
-  /* .project-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
-  }
-
-  .project-item {
-    margin: 0 auto;
-    max-width: 500px;
-  }
-
-  .project-info {
-    padding: 15px;
+  .project-title {
     text-align: center;
   }
 
-  .project-img {
-    width: 100%;
-    height: auto;
-  } */
+  .project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+    height: 1200px;
+  }
+
+  .back {
+    background-color: #3a3a3a;
+    transform: rotateY(180deg);
+    color: #fff;
+    gap: 5rem;
+  }
+  /* Responsive for hero */
   .hero_img {
     width: 50%;
     display: block;
@@ -508,22 +612,35 @@ footer {
     width: 100%;
     margin: 10px 0;
   }
-  .contact {
-    padding: 20px;
-  }
+
+  /* Project */
 
   .project {
     padding: 20px;
   }
 
-  .project-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
+  .project-title {
+    font-size: 26px;
   }
 
-  .project-item {
-    margin: 0 auto;
-    max-width: 500px;
+  .project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+    height: 1200px;
+  }
+
+  .back {
+    gap: 3rem;
+    margin: 10px;
+    padding: 20px;
+    font-size: 8px;
+  }
+  /* Responsive for contact */
+  .contact {
+    padding: 20px;
   }
 }
